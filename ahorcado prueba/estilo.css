@@ -1,0 +1,120 @@
+body{
+  background-image: url('fondo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  #contenedor {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 200px;
+  }
+  .elementos {
+    animation: fadeIn 1s forwards 1s;
+    opacity: 0;
+  }
+  svg {
+    position: absolute;
+  }
+  #perderGraficado {
+    opacity: 0;
+  }
+  
+  .oportunidad1 {
+   
+    opacity: 0;
+  }
+  .oportunidad2 {
+   
+    opacity: 0;
+  }
+  .oportunidad3 {
+   
+    opacity: 0;
+  }
+  .oportunidad4 {
+   
+    opacity: 0;
+  }
+  .oportunidad5 {
+ 
+    opacity: 0;
+  }
+  .oportunidad6 {
+   
+    opacity: 0;
+  }
+  .oportunidad7 {
+   
+    opacity: 0;
+  }
+  
+  
+  #contenedor2 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  #letras {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    height: 25px;  
+    perspective: 450px;
+  }
+  .letra {
+    z-index: 10;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-bottom: 2px solid black;  
+    margin: 2px;
+  }
+  #todasLasLetras {
+    color: white;
+    
+    margin: 20px auto;
+    animation: fadeIn 1s forwards 1s;
+    opacity: 0;
+   
+  }
+  .variableLetra {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: black;
+   
+    font-weight: bold;
+  }
+  .variableLetra:hover {
+    color: white;
+    background-color: black;
+  }
+
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+  
+ 
+
+ 
+  
+  
+
